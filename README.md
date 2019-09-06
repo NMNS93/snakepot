@@ -6,9 +6,9 @@
 
 ## Quick Start
 
-1. [Install snakepot](#Setup) (requires conda)
+1. [Install snakepot](#Setup) (requires [conda](https://docs.conda.io/en/latest/miniconda.html))
 
-1. Edit parameters in [config.json](#config.json)
+1. Edit parameters in [config.json](#configjson)
 
 1. Run `snakemake`
 
@@ -27,7 +27,7 @@ I developed `snakepot` during my elective at the William Harvey Research Institu
 
 An example dataset (/test/data.csv) and config file (config.json) are provided.
 
-## Installation
+## Setup
 
 ```bash
 # Build conda environment
