@@ -1,0 +1,17 @@
+{
+    "directory": "snakepot_test",
+    "input": "test/test.csv",
+    "drop_columns": [
+        "OO1", "OO2", "OO12", "OO12", "OO13", "OO14", "OO25", "OO28", "OO29", "OO35", "OO36",
+        "OO38", "OO37", "OO40", "OO39" 
+    ],
+    "encode_columns": [
+        "0045", "OO43", "OO44", "OO41", "OO42"
+    ],
+    "target_column": "target",
+    "target_1": "BENIGN",
+    "target_0": "DELETERIOUS",
+    "to_predict": "ND",
+    "perc_split": 0.2,
+    "TPOT_max_time": 5
+}
